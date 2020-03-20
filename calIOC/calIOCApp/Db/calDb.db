@@ -1,0 +1,16 @@
+record(calc,"result"){
+	field(INPA, "INPUT PP")
+	field(VAL, "OUTPUT PP NMS")
+	field(CALC, "a")
+}
+record(ai,"INPUT")
+{
+	field(VAL, 1234)
+}
+record(ao,"OUTPUT")
+{
+	field(SCAN, 1 second)
+	filed(OMSL, supervisory)
+	field(DOL, CALC PP)
+}
+
